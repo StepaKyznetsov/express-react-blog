@@ -7,10 +7,10 @@ export const SET_COMMENTS = 'SET_COMMENTS'
 export const SET_USER = 'SET_USER'
 export const IS_AUTH = 'IS_AUTH'
 export const LOGOUT = 'LOGOUT'
+//routes
 export const LOGIN = '/login'
 export const REGISTRATION = '/registration'
-//routes
 export const MAIN = '/main'
-export const MY = '/MY'
+export const MY = '/my'
 export const CREATE = '/create'
 export const UPDATE = '/update'
