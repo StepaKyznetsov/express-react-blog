@@ -1,0 +1,20 @@
+.container {
+  z-index: 99;
+  display: flex;
+  transition: all .3s;
+  flex-direction: column;
+  justify-content: space-between;
+  cursor: pointer;
+  border: #444444 1px solid;
+  height: 25vh;
+  width: 70vw;
+  margin: 1rem auto;
+  box-shadow: 0 4px 6px rgb(65 132 144 / 10%), 0 1px 3px rgb(0 0 0 / 80%);
+  &:hover {
+    background: #d7d6d6;
+    &:active{
+      background: #d7d6d6;
+    }
+  }
+}
+
